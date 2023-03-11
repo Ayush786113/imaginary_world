@@ -25,13 +25,13 @@ Base URL - api.domain.extension
 
 #### Get all stories
 
-```http
+```
   GET /stories
 ```
 
 #### Get single story details
 
-```http
+```
   GET /stories?id=${id}
 ```
 
@@ -41,7 +41,7 @@ Base URL - api.domain.extension
 
 #### Get single chapter detail
 
-```http
+```
   GET /chapter?id=${id}
 ```
 
@@ -51,32 +51,32 @@ Base URL - api.domain.extension
 
 #### Post comment
 
-```http
+```
   POST /connection
 ```
 
 | Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- 
+| :-------- | :------- | :-------------------------------- |
 |
 | `name`      | `string` | **Required**. name of the writer |
-|
+| :-------- | :------- | :-------------------------------- |
 | `email`      | `string` | **Required**. email of the writer |
-|
+| :-------- | :------- | :-------------------------------- |
 | `message`      | `string` | **Required**. message of the writer |
-|
+| :-------- | :------- | :-------------------------------- |
 | `private`      | `boolean` | **Optional**. is private message or not **Default - false**|
 
 #### Add subscriber
 
-```http
+```
   POST /subscribe
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- 
-|
+| :-------- | :------- | :-------------------------------- |
 | `name`      | `string` | **Required**. name of the subscriber |
-|
+| :-------- | :------- | :-------------------------------- |
 | `email`      | `string` | **Required**. email of the subscriber |
 
 ## Tech Stack
